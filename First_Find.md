@@ -43,7 +43,7 @@ Ao acessar o diretório `.secret`, encontramos um documento de texto chamado `ub
 
 Por fim, abrimos o documento em um editor de texto e encontramos a flag, confirmando que havíamos localizado o arquivo correto.
 
-![Conteúdo do arquivo uber-secret contendo a flag](https://postimg.cc/yWZqkZSG)
+![Conteúdo do arquivo uber-secret contendo a flag](https://i.postimg.cc/nVdnSKVh/4dd74a94-df46-4ad0-b269-44a6bf0fc118.png)
 
 > **Flag:** `academy{f1nd_15_f457_ab443fd1}`
 
