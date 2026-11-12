@@ -31,7 +31,7 @@ Embora o arquivo compactado contenha vários documentos, não precisamos analisa
 ### Resolução
 Começamos acessando o diretório `acceptable_books`, no qual encontramos outros arquivos e uma subpasta chamada `more_books`. Essa organização indica que existem níveis adicionais a serem explorados.
 
-![Arquivos e pasta more_books encontrados durante a navegação]()
+![Arquivos e pasta more_books encontrados durante a navegação](https://i.postimg.cc/Kc9mp7cY/0a9193c7-3752-4722-950e-f980ddede55e.png)
 
 Em seguida, abrimos a pasta `more_books`. Nela, encontramos outro arquivo de texto e um diretório chamado `.secret`, cujo nome sugere que possa conter o arquivo solicitado no enunciado.
 
