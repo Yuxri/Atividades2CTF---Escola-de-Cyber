@@ -12,16 +12,16 @@ Em tradução livre, devemos descompactar o arquivo fornecido e encontrar o docu
 
 Print do enunciado da questão:
 
-![Enunciado do desafio First Find](https://i.postimg.cc/HWSTv0WV/9209c35c-d9a2-4ef7-9dad-e6e421ed9ea6.png)
+![Enunciado do desafio First Find](https://postimg.cc/yWZqkZZH)
 
 ### Análise Inicial
 Após baixar o arquivo ZIP disponibilizado pelo desafio, encontramos um arquivo compactado chamado `files`, que reúne os diretórios e documentos que precisamos examinar.
 
-![Arquivo compactado fornecido pelo desafio](https://i.postimg.cc/7PBqt1Pb/9b87abc7-979e-4523-a2af-554058bb8d35.png)
+![Arquivo compactado fornecido pelo desafio](https://postimg.cc/pyFNpFFt)
 
 Ao extrair seu conteúdo e abrir a pasta principal, identificamos vários arquivos de texto e três diretórios: `acceptable_books`, `adequate_books` e `satisfactory_books`. Como o enunciado solicita apenas a localização de um arquivo, podemos prosseguir examinando a organização das pastas, sem necessidade de decodificação ou ferramentas adicionais.
 
-![Conteúdo inicial do arquivo descompactado](https://i.postimg.cc/jq8R36q2/94118963-787a-4f8d-a39c-0a3f4a47efed.png)
+![Conteúdo inicial do arquivo descompactado](https://postimg.cc/NLHh5HHv)
 
 ### Interpretação
 A principal pista do desafio é o próprio nome do arquivo procurado: `uber-secret.txt`. Dessa forma, nossa tarefa consiste em explorar a estrutura de diretórios até encontrá-lo.
@@ -31,19 +31,19 @@ Embora o arquivo compactado contenha vários documentos, não precisamos analisa
 ### Resolução
 Começamos acessando o diretório `acceptable_books`, no qual encontramos outros arquivos e uma subpasta chamada `more_books`. Essa organização indica que existem níveis adicionais a serem explorados.
 
-![Arquivos e pasta more_books encontrados durante a navegação](https://i.postimg.cc/Kc9mp7cY/0a9193c7-3752-4722-950e-f980ddede55e.png)
+![Arquivos e pasta more_books encontrados durante a navegação](https://postimg.cc/9z73r773)
 
 Em seguida, abrimos a pasta `more_books`. Nela, encontramos outro arquivo de texto e um diretório chamado `.secret`, cujo nome sugere que possa conter o arquivo solicitado no enunciado.
 
-![Pasta .secret localizada dentro de more_books](https://i.postimg.cc/qBmpDcBB/95549274-49fe-4c9f-9031-eec7c4fc0b4e.png)
+![Pasta .secret localizada dentro de more_books](https://postimg.cc/s1hFvhZb)
 
 Ao acessar o diretório `.secret`, encontramos um documento de texto chamado `uber-secret`. Como o Windows pode ocultar extensões de tipos de arquivos conhecidos, esse nome corresponde ao arquivo `uber-secret.txt` solicitado pelo desafio.
 
-![Arquivo uber-secret encontrado na pasta .secret](https://i.postimg.cc/PJFhLHFG/b0023f82-a92e-4b42-80a1-9d825dcc68da.png)
+![Arquivo uber-secret encontrado na pasta .secret](https://postimg.cc/CnD9t3gJ)
 
 Por fim, abrimos o documento em um editor de texto e encontramos a flag, confirmando que havíamos localizado o arquivo correto.
 
-![Conteúdo do arquivo uber-secret contendo a flag](https://i.postimg.cc/fWHMq7WM/c6ce2871-df1d-496c-9eb4-6dbd4d782ef4.png)
+![Conteúdo do arquivo uber-secret contendo a flag](https://postimg.cc/yWZqkZSG)
 
 > **Flag:** `academy{f1nd_15_f457_ab443fd1}`
 
